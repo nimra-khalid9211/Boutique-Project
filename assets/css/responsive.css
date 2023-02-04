@@ -1,0 +1,648 @@
+@media (max-width:399px){
+    .nav-link{
+        display: none;
+    }
+     .nav-bar{
+        position: relative;
+    }
+    .nav-bar{
+        position: relative;
+    }
+    .navbar-toggler{
+        display: block;
+        font-size: 35px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: #005;
+    }
+    .nav-brand{
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5px;
+    }
+    .nav-icon{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .nav-items{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .safe-header{
+        flex-direction: column;
+    }
+    .safety{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .upper-link{
+        margin-top: 60px;
+    }
+    .nav-items li{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .beauty-products {
+        margin-top: 50px;
+    }
+    .winner{
+        flex-direction: column;
+    }
+    .winner-card img{
+        width: 300px;
+    }
+    .all-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .winner-names{
+        margin-left: 0;
+    }
+    .winner-btn{
+        width: 100%;
+    }
+    .gift-card {
+        margin-top: 60px;
+    }
+    .contact-items{
+        padding: 1px;
+    }
+    .brand-reponser {
+        flex-basis: 50%;
+    }
+    .all-brands{
+        padding-bottom: 30px;
+    }
+    .brand-reponser {
+        flex-basis: 34%;
+    }
+    .policy-list{
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+    .policy-items{
+        margin-left: 0;
+        flex-basis: 33%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .cool-pack {
+        margin-top: 80px;
+    }
+    .cool-img{
+        height: 200px;
+    }
+    .cool-img img {
+        height: 65px;
+    }
+    .nav{
+        flex-direction: column;
+       padding-left: 0;
+    }
+    .nav-pills .nav-link {
+        border-radius: 0;
+    }
+    .sea-side-img img{
+        width: 100%;
+    }
+    .free-boking{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        overflow: hidden;
+    }
+    .free-boking .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .treatment-img{
+        margin-top: 30px;
+    }
+    .booking-btn a {
+        font-size: 12px;
+    }
+    .booking-btn{
+        width: 75%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .successful-works .row{
+        justify-content: space-around;
+    }
+    .successful-works h3 {
+        font-size: 24px;
+    }
+    .improve-health h2{
+        font-size: 16px;
+    }
+    .history{
+        flex-direction: column;
+    }
+    .history-img{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .history-para{
+        text-align: center;
+    }
+    .work-vedio{
+        margin-bottom: 30px;
+    }
+    .work-vedio img{
+       width: 100%;
+    }
+    .its-work{
+        padding: 0 30px;
+        flex-direction: column-reverse;
+    }
+    .work-heading {
+        margin-right: 0;
+    }
+    .ice-lollies .col-lg-6{
+        justify-content: center;
+        display: flex;
+    }
+    .lolly-img img{
+        width: 100%;
+    }
+    .tags {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .tag-img {
+        flex-direction: column;
+        width: 140px;
+        margin: auto;
+    }
+    .tag-img img{
+        margin-bottom: 45px;
+    }
+    .my-details{
+        height: 200px;
+    }
+    .my-details h1{
+        line-height: 200px;
+        font-size: 55px;
+    }
+    .contact-details h2 {
+        font-size: 30px;
+    }
+    .btn-selection{
+        flex-direction: column;
+    }
+    .edit-btn {
+        width: 220px;
+        margin-left: 0;
+        margin: 15px 0;
+    }
+    .faqs-footer{
+        margin-bottom: 30px;
+    }
+    .process{
+        margin-top: 30px;
+    }
+    .process h1{
+        text-align: center;
+    }
+    .accordian h1{
+        font-size: 20px;
+    }
+    .accordion-item button{
+        font-size: 18px;
+    }
+    .team-footer{
+        margin-bottom: 30px;
+    }
+    .team-img img{
+        width: 100%;
+    } 
+}
+@media  (min-width:400px) and (max-width:576px) {
+    .nav-link{
+        display: none;
+    }
+     .nav-bar{
+        position: relative;
+    }
+    .nav-bar{
+        position: relative;
+    }
+    .navbar-toggler{
+        display: block;
+        font-size: 35px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: #005;
+    }
+    .nav-brand{
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5px;
+    }
+    .nav-icon{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .nav-items{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .upper-link{
+        margin-top: 60px;
+    }
+    .nav-items li{
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    .beauty-products {
+        margin-top: 70px;
+    }
+    .col-lg-3{
+        flex-basis: 100%;
+    }
+    .gift-card {
+        margin-top: 60px;
+    }
+    .winner{
+        flex-direction: column;
+    }
+    .all-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .winner-names{
+        margin-left: 0;
+    }
+    .winner-btn{
+        width: 100%;
+    }
+    .product-btn{
+        padding: 10px 0px;
+        width: 140px;
+    }
+    .brand-reponser{
+        flex-basis: 33%;
+    }
+    .all-brands{
+        padding-bottom: 40px;
+    }
+    .policy-list{
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+    .policy-items{
+        margin-left: 0;
+        flex-basis: 33%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .covid {
+        font-weight: 800;
+        font-size: 9px;
+    }
+    .product-pack h4 {
+        font-size: 24px;
+    }
+    .cool-pack {
+        margin-top: 80px;
+    }
+    .cool-img{
+        height: 200px;
+    }
+    .cool-img img {
+        height: 85px;
+    }
+  .nav{
+    flex-direction: column;
+   padding-left: 0;
+   }
+  .nav-pills .nav-link {
+    border-radius: 0;
+    }
+    .sea-side-img img{
+        width: 100%;
+    }
+    .free-boking{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        overflow: hidden;
+    }
+    .free-boking .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .treatment-img{
+        margin-top: 30px;
+    }
+    .booking-btn a {
+        font-size: 16px;
+    }
+    .booking-btn{
+        width: 75%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .successful-works .row{
+        justify-content: space-around;
+    }
+    .successful-works h3 {
+        font-size: 24px;
+    }
+    .improve-health h2{
+        font-size: 24px;
+    }
+    .history{
+        flex-direction: column;
+    }
+    .history-img{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .history-para{
+        text-align: center;
+    }
+    .work-vedio{
+        margin-bottom: 30px;
+    }
+    .work-vedio img{
+       width: 100%;
+    }
+    .its-work{
+        padding: 0 30px;
+        flex-direction: column-reverse;
+    }
+    .work-heading {
+        margin-right: 0;
+    }
+    .ice-lollies .col-lg-6{
+        justify-content: center;
+        display: flex;
+    }
+    .lolly-img img{
+        width: 100%;
+    }
+    .my-details{
+        height: 250px;
+    }
+    .my-details h1{
+        line-height: 250px;
+    }
+    .faqs-footer{
+        margin-bottom: 30px;
+    }
+    .accordion-item button{
+        font-size: 20px;
+    }
+    .process{
+        margin-top: 30px;
+    }
+    .process h1{
+        text-align: center;
+    }
+    .team-footer{
+        margin-bottom: 30px;
+    }
+    .team-img img{
+        width: 100%;
+    } 
+
+}
+@media (min-width:577px) and (max-width:768px) {
+    .nav-bar{
+        position: relative;
+    }
+    .navbar-toggler{
+        display: block;
+        font-size: 35px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: #005;
+    }
+    .nav-brand{
+        position:absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5px;
+    }
+    .nav-icon{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .nav-items{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .upper-link{
+        margin-top: 60px;
+    }
+    .nav-items li{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .beauty-products {
+        margin-top: 70px;
+    }
+    .gift-card {
+        margin-top: 60px;
+    }
+    .winner{
+        flex-direction: column;
+    }
+    .all-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .brand-reponser{
+        flex-basis: 25%;
+    }
+    .all-brands{
+        padding-bottom: 40px;
+    }
+    .policy-items{
+        margin-left: 8px;
+    }
+    .cool-img{
+        height: 250px;
+    }
+    .cool-img img {
+        height: 110px;
+    }
+    .cool-pack {
+        margin-top: 80px;
+    }
+    .free-boking{
+        text-align: center;
+    }
+    .booking-btn{
+        width: 75%;
+        margin: 20px auto;
+    }
+    .treatment-img{
+        margin-top: 30px;
+    }
+    .booking-btn a {
+        font-size: 16px;
+    }
+    .active-boking{
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+    .successful-works .col-lg-3{
+        text-align: center;
+        flex-basis: 50%;
+    }
+    .loosing-fats{
+        padding: 0;
+    }
+    .fats-img img {
+        width: 100%;
+    }
+    .work-vedio{
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .its-work{
+        padding: 0 30px;
+        flex-direction: column-reverse;
+    }
+    .ice-lollies .col-lg-6{
+        justify-content: center;
+        display: flex;
+    }
+    .my-details{
+        height: 250px;
+    }
+    .my-details h1{
+        line-height: 250px;
+    }
+    .multi-divider{
+        flex-basis: 25%;
+    }
+    .team-img img{
+        width: 100%;
+    } 
+
+    
+}
+@media (min-width:769px) and (max-width:880px) {
+    .nav-items li{
+        font-size: 12px;
+    }
+    .winner{
+        flex-direction: column;
+    }
+    .all-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .brand-reponser{
+        flex-basis: 25%;
+    }
+    .all-brands{
+        padding-bottom: 40px;
+    }
+    .gift-card {
+        margin-top: 60px;
+    }
+    .cool-img{
+        height: 300px;
+    }
+    .free-boking{
+        text-align: center;
+    }
+    .booking-btn{
+        width: 75%;
+        margin:  25px auto;
+    }
+
+    .successful-works .row{
+        justify-content: space-around;
+    }
+    .work-vedio{
+        overflow: hidden;
+    }
+    .its-work{
+        padding: 0 30px;
+    }
+    .ice-lollies .col-lg-6{
+        justify-content: center;
+        display: flex;
+    }
+    .my-details{
+        height: 250px;
+    }
+    .my-details h1{
+        line-height: 250px;
+    }
+
+}
+@media (min-width:881px) and (max-width:1250px) {
+    .winner{
+        flex-direction: column;
+    }
+    .all-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .brand-reponser{
+        flex-basis: 25%;
+    }
+    .all-brands{
+        padding-bottom: 40px;
+    }
+    .col-lg-3{
+           flex-basis: 50%;
+           text-align: center;
+    }
+    .product-btn {
+       width: 150px;
+       padding: 10px 0;
+    }
+    .product-pack h4 {
+        font-size: 24px;
+    }
+    .gift-card {
+        margin-top: 60px;
+    }
+    .cool-img{
+        height: 300px;
+    }
+    .free-boking{
+        text-align: center;
+    }
+    .successful-works .row{
+        justify-content: space-around;
+    }
+    .work-vedio{
+        overflow: hidden;
+    }
+    .its-work{
+        padding: 0 30px;
+    }
+    .ice-lollies .col-lg-6{
+        justify-content: center;
+        display: flex;
+    }
+    .booking-btn{ 
+        margin:  25px auto;
+    }
+    .my-details{
+        height: 250px;
+    }
+    .my-details h1{
+        line-height: 250px;
+    }
+    .multi-divider{
+        flex-basis: 33%;
+    }
+
+}

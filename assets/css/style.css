@@ -1,0 +1,880 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+.mini-header{
+    background-color: #00535F;
+}
+.safe-header{
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    justify-content: center;
+}
+.covid{
+    color: #fff;
+    font-weight: 700;
+}
+.safety{
+    color: #00535F;
+    background-color: #fff;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-left: 70px;
+    font-weight: 700;
+}
+.navbar-toggler{
+    display: none;
+}
+.header{
+    margin-top: 10px;
+}
+.header .container{
+    max-width: 1380px;
+}
+.nav-bar{
+    width: 100%;
+}
+.nav-link{
+    padding: 0;
+    width: 100%;
+}
+.nav-items{
+   padding-left: 0;
+}
+.nav-items li{
+    flex: 1;
+    font-size: 16px;
+    padding-bottom: 0;
+    text-align: center;
+}
+.nav-items li a{
+    color: black;
+}
+ol, ul, dl {
+     margin-bottom: 0;
+}
+.beauty-products{
+    margin-top: 5px;
+}
+.beauty-products .container{
+    max-width: 1200px;
+}
+.col-lg-3{
+    margin-top: 55px;
+}
+.winner{
+    max-width: 800px;
+    margin: auto;
+    padding: 25px 0;
+}
+.product-pack{
+    position: relative;
+}
+.product-pack h4{
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    font-weight: 400;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.product-pack img{
+   width: 100%;
+}
+.product-btn{
+    background-color: #00535F;
+    display: block;
+    padding: 13px 0px;
+    width: 197px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 90%;
+    font-weight: 700;
+    left: 50%;
+    transform: translate(-50%);
+}
+.product-btn a{
+    color: #fff !important;
+}
+.gift-card{
+    background-color: #00535F;
+    margin-top: 110px;
+}
+.winner-names{
+    margin-left: 100px;
+}
+.winner-names p{
+    margin-bottom:0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.winner-btn{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 344px;
+    padding: 14px 0;
+    text-align: center;
+    margin-top: 22px;
+}
+.winner-btn a{
+    color: #00535F;
+    font-weight: 700;
+}
+.all-products{
+    max-width: 1181px;
+    margin: auto;
+    margin-top: 110px;
+}
+.img-btn{
+    background-color: #00535F;
+    display:block;
+    padding: 12px 63px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: auto;
+    width: 197px;
+    padding: 13px 0;
+    text-align: center;
+    margin-top: 42px;
+}
+.img-btn a{
+    color: #fff !important;
+}
+.contact-us{
+    background-color: #00535F;
+    margin-top: 104px;
+    padding-bottom: 37px;
+}
+.contact-us h4,h5,li a{
+    color: #fff;
+}
+.contact-us .row{
+    max-width: 730px;
+    margin: auto;
+}
+.contact-us h4{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 22px;
+}
+.contact-items{
+    margin-top: 43px;
+    padding: 0 23px;
+}
+.contact-items h5{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contact-items li{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.address-london{
+    padding: 0 55px;
+}
+.company-logo{
+    margin-top: 57px;
+}
+.all-details{
+    max-width: 989px;
+    margin: auto;
+    margin-top: 5px;
+}
+.all-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-top: 25px;
+    line-height: 22px;
+}
+.meta-para{
+    margin-bottom: 100px;
+    margin-top: 22px;
+}
+.same-margin{
+    margin-top: 25px;
+}
+.high-light{
+    background-color: #00535F;
+    padding-bottom: 15px;
+}
+.high-light .container{
+    max-width: 1400px;
+}
+.see-on{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.see-heading{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff !important;
+    position: relative;
+}
+.see-heading::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    width: 100px;
+    top: 110%;
+    left: 40px;
+
+}
+.all-brands{
+    max-width: 1360px;
+    margin: auto;
+    margin-left: -30px;
+    margin-top: -12px;
+    flex-wrap: wrap;
+}
+.brand-reponser{
+    flex: 1;
+    text-align: center;
+    margin-bottom: -33px;
+}
+.feed-back{
+    max-width: 630px;
+    margin: auto;
+}
+.footer{
+    background-color: #002429;
+}
+.policy{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.policy-items {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    flex: 1;
+    position: relative;
+}
+.policy-items::after{
+    content: "";
+    position: absolute;
+    border-left: 2px solid #fff;
+    height: 80%;
+    margin-left: 12px;
+}
+.no-after::after{
+    border-left: none;
+}
+.footer-social-icon{
+    padding-bottom: 30px;
+}
+.footer-social-icon svg{
+    margin-left: 10px;
+}
+.mini-footer{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+               /* Science and tech.CSS */
+ p{
+     margin-bottom: 0;
+ }
+ .cool-pack{
+     background-color: #00535F;
+     margin-top: 17px;
+ }  
+ .cool-img{
+      height: 393px;
+ }  
+ .free-boking{
+     margin-top: 18px;
+ }
+ .free-boking .container{
+     max-width: 1225px;
+ } 
+ .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #00535F;
+}
+.nav-item{
+    flex: 1;
+}
+ .active-boking{
+     font-weight: 700;
+     border-radius: 8px;
+     padding: 12px 0;
+     width: 197px
+ }
+ .nav-link {
+    padding: 12px 0;
+}
+ .booking-now{
+    margin-top: 30px;
+ }
+ .booking-feature h3{
+     font-size: 36px;
+     font-weight: 700;
+ }  
+ .booking-feature h4{
+     font-weight: 700;
+     color: #FF0A00;
+ }   
+ .booking-heading{
+    margin-top: 61px;
+    margin-bottom: 42px;
+ }
+ .booking-details h3{
+     font-size: 18px;
+     font-weight: 700;
+     margin-top: 33px;
+ }
+ .booking-details p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.booking-btn{
+    margin-top: 42px;
+    width: 392px;
+    padding: 14px 0;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+}
+.booking-btn a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.treatments{
+    margin-top: 112px;
+}
+.treatments .container{
+    max-width: 1200px;
+}
+.treatment-items{
+    font-size: 22px;
+    font-weight: 700;
+    list-style: disc;
+}
+.successful-works{
+    margin-top: 119px;
+}
+.successful-works .container{
+    max-width: 1382px;
+}
+.successful-works h3{
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 755px;
+    margin: auto;
+}
+.fats-img{
+    margin-bottom: 30px;
+}
+.loosing-fats p{
+    padding: 0 10px;
+    line-height: 21px;
+}
+.improve-health{
+    margin-top: 55px;
+}
+.improve-health .container{
+    max-width: 1031px;
+}
+.improve-health h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    max-width: 799px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 55px;
+}
+.history-para{
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+.history-para h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+.history-para p{
+    max-width: 863px;
+    line-height: 21px;
+}
+.vedio-add{
+    margin-top: 74px;
+}
+.vedio-add .container{
+    max-width: 1205px;
+}
+.work-heading{
+    margin-right: 55px;
+}
+.work-heading h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.work-heading p{
+    max-width: 536px;
+    text-align: start;
+    line-height: 20px;
+}
+.ice-lollies{
+    margin-top: 100px;
+}
+.ice-lollies .container{
+    max-width: 1200px;
+}
+.lolly-heading h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.lolly-heading p{
+    max-width: 536px;
+    line-height: 20px;
+}
+.from-ice{
+    margin-bottom: 60px;
+}
+.lolly-btn{
+    margin: auto;
+    margin-top: 77px;
+}
+.tags .container{
+    max-width: 410px;
+}
+.tags{
+    margin-top: 90px;
+    margin-bottom: 97px;
+}
+.tag-img{
+    justify-content: space-between;
+}
+                                              /* priceing-CSS */
+                            
+ .booking-heading{
+   max-width: 689px;
+   margin: auto;
+   margin-top: 73px;
+ }
+.booking-heading h5{
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+.booking-heading h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    margin-top: 73px;
+  }
+  .price .container{
+      max-width: 1414px;
+  }
+  .price .col-lg-3{
+      margin-top: 23px;
+}
+  .price-card{
+      background-color: #7EB6DE;
+      padding: 112px 0;
+      text-align: center;
+  }
+  .second-card{
+      background-color:#5E9ECC ;
+  }
+  .third-card{
+      background-color: #418DC4;
+  }
+  .fourth-card{
+      background-color: #0564A8;
+  }
+  .price-card h1{
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 3px;
+  }
+  .lessing-price h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 15px;
+}
+.price-btn{
+    margin: auto;
+    margin-top: 26px;
+}
+.multi-blocks{
+    margin-top: 54px;
+}
+.multi-blocks .container{
+    max-width: 1300px;
+    margin: auto;
+}
+.multi-divider{
+    flex: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.white-patch{
+    position: relative;
+}
+.white-patch::after{
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 0;
+ background: #fff;
+ opacity: 0.8;
+  
+}
+.multi-para{
+    background-color: #FF6161;
+    height: 404px;
+}
+.multi-divider p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 92px 34px;
+    text-align: center;
+}
+.multi-divider h2{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.promise{
+    margin-top: 100px;
+}
+.promise .container{
+    max-width: 670px;
+    margin: auto;
+}
+.promise-heading{
+    font-size: 36px;
+    font-weight: 700;
+}
+.teams-condition .container{
+    max-width: 714px;
+    margin: auto;
+}
+.teams-condition{
+    margin-bottom: 42px;
+    margin-top: 60px;
+}
+.teams-condition h1{
+   font-size: 24px;
+   font-weight: 700;
+}
+.condition-list{
+    padding-left: 0;
+}
+.condition-list li{
+    margin-top: 13px;
+}
+.condition-list a{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.condition-list .team-item {
+    margin-top: 10px;
+}
+
+                   /* my-contact-CSS */
+
+.my-details{
+    height: 393px;
+    background-color: #00535F;
+    margin-top: 26px;
+}
+.my-details h1{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 393px;
+    text-align: center;
+}
+.contact-details{
+    margin-top: 45px;
+}
+.contact-details .container{
+    max-width: 986px;
+}
+.contact-details h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.form-label{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.form-control{
+    border-color: #002429;
+    padding: 18px 0;
+}
+.postal-code{
+    width: 225px;
+}
+.biiling-details{
+    margin-top: 125px;
+}
+.double-bar input{
+    width: 120px;
+}
+span{
+    font-size: 39px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.edit-btn{
+    background-color: #002429;
+    width: 205px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 14px 0;
+    margin-left: 30px;
+}
+.edit-btn a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.details-btn{
+    margin-top: 82px;
+}
+.details-btn .container{
+    max-width: 510px;
+    margin: auto;
+}
+.down-btn{
+    margin-bottom: 68px;
+}
+               /* faqs-CSS */
+.faqs{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 98px;
+}
+.accordian .container{
+    max-width: 950px;
+}
+.accordion{
+    margin-top: 45px;
+}
+.accordian h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.accordion-item {
+    border: 0;
+    margin-bottom: 0px;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #fff;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-item button{
+    font-size: 24px;
+    font-weight: 700;
+}
+.accordion-body {
+    padding: 0 35px;
+}
+.process{
+    margin-top: 10px;
+}
+.process h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.process .container{
+    max-width: 965px;
+}
+.after-you{
+    margin-top: 0;
+}
+.other{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.faqs-footer{
+    margin-bottom: 50px;
+}
+
+        /* treatment-CSS */
+
+.fitness{
+    margin-top: 58px;
+}        
+.fitness .container{
+    max-width: 1330px;
+}
+.reshape-body{
+    max-width: 689px;
+    font-size: 18px;
+    font-weight: 700;
+}        
+.boy-img{
+    margin-left: 34px;
+}
+.chin{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.chin .container{
+    max-width: 885px;
+}
+.fitness img{
+    width: 100%;
+}
+.chin img{
+    width: 100%;
+}
+
+          /* our-team.CSS */
+
+.team-member{
+    margin-top: 65px;
+}
+.team-heading{
+    margin-top: 25px;
+}
+.team-degree{
+    margin-top: 10px;
+}
+.team-member h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    width: 291px;
+    margin: auto;
+}  
+.team-details .container{
+    max-width: 821px;
+}  
+.team-details h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 291px;
+}  
+.team-details p{
+    margin-top: 20px;
+}
+.first-detail{
+    margin-top: 20px;
+}
+.second-detail{
+    margin-top: 7px;
+}
+.third-detail{
+    margin-top: 46px;
+    margin-bottom: 66px;
+}
+.team-footer{
+    margin-bottom: 85px;
+} 
+   /* visit-timing-css */
+
+.future-visit{
+    margin-top: 50px;
+}
+.future-visit .container{
+    max-width: 1280px;
+}
+.future-visit .row{
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+}
+.future-visit p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.reschedule{
+    font-size: 18px;
+    font-weight: 400;
+}
+.cancelation{
+    font-size: 18px;
+    font-weight: 400;
+}
+.purchases{
+    margin-top: 95px;
+    margin-bottom: 55px;
+}
+.purchase p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.purchase .row{
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+}
+.buy-btn{
+    background-color: #002429;
+    padding: 14px 0;
+    width: 205px;
+    border-radius: 9px;
+}
+.buy-btn a{
+    color: #fff;
+}
+.row.no-border{
+    border-bottom: none;
+}
+.purchase{
+    margin-bottom: 100px;
+}
+.purchase .container{
+    max-width: 1280px;
+}
